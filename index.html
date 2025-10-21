@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zain Bags - Elegance You Carry. Explore our curated collection of handcrafted luxury bags.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zain Bags | Elegance You Carry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical images for faster loading -->
+    <link rel="preload" as="image" href="images/Aurora Clutch.jpg" type="image/jpeg">
+    <link rel="preload" as="image" href="images/moonlight_satchelbag.jpg" type="image/jpeg">
+    <link rel="preload" as="image" href="images/Urban Diva Sling.jpg" type="image/jpeg">
+</head>
+<body>
+    <!-- Notification Banner -->
+    <div class="notification-banner" id="notificationBanner">
+        <p>✨ New Spring Collection Arriving Soon | Contact us for exclusive previews</p>
+        <button class="close-banner" id="closeBanner">&times;</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="brand-name fade-in">Zain Bags</h1>
+            <p class="tagline fade-in-delay">Elegance You Carry</p>
+            <p class="subtitle fade-in-delay-2">Where fashion meets finesse</p>
+            <div class="scroll-indicator">
+                <span>Explore Collection</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Gallery -->
+    <section class="collection" id="collection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Curated Collection</h2>
+                <p class="section-subtitle">Timeless designs, handcrafted with passion</p>
+            </div>
+
+            <div class="gallery">
+                <!-- Bag 1 -->
+                <div class="bag-card" data-aos="fade-up">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Velvet Charm Tote.avif" 
+                             alt="Velvet Charm Tote" 
+                             class="bag-image" 
+                             loading="lazy" 
+                             decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Velvet Charm Tote</h3>
+                        <p class="bag-tagline">Sophistication in every stitch</p>
+                    </div>
+                </div>
+
+                <!-- Bag 2 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Aurora Clutch.jpg" alt="Aurora Clutch" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Aurora Clutch</h3>
+                        <p class="bag-tagline">Evening glamour redefined</p>
+                    </div>
+                </div>
+
+                <!-- Bag 3 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bag-image-wrapper">
+                        <img src="images/moonlight_satchelbag.jpg" alt="Moonlight Satchel" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Moonlight Satchel</h3>
+                        <p class="bag-tagline">Graceful companion for every journey</p>
+                    </div>
+                </div>
+
+                <!-- Bag 4 -->
+                <div class="bag-card" data-aos="fade-up">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Urban Diva Sling.jpg" alt="Urban Diva Sling" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Urban Diva Sling</h3>
+                        <p class="bag-tagline">Chic style on the go</p>
+                    </div>
+                </div>
+
+                <!-- Bag 5 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Rose Garden Handbag.jpg" alt="Rose Garden Handbag" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Rose Garden Handbag</h3>
+                        <p class="bag-tagline">Blooming with elegance</p>
+                    </div>
+                </div>
+
+                <!-- Bag 6 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Luxe Noir Shoulder Bag.avif" alt="Luxe Noir Shoulder Bag" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Luxe Noir Shoulder Bag</h3>
+                        <p class="bag-tagline">Classic beauty, modern soul</p>
+                    </div>
+                </div>
+
+                <!-- Bag 7 -->
+                <div class="bag-card" data-aos="fade-up">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Pearl Essence Crossbody.jpg" alt="Pearl Essence Crossbody" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Pearl Essence Crossbody</h3>
+                        <p class="bag-tagline">Delicate charm, effortless style</p>
+                    </div>
+                </div>
+
+                <!-- Bag 8 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Champagne Dreams Tote.webp" alt="Champagne Dreams Tote" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Champagne Dreams Tote</h3>
+                        <p class="bag-tagline">Celebrate every moment</p>
+                    </div>
+                </div>
+
+                <!-- Bag 9 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Serenity Mini Bag.jpg" alt="Serenity Mini Bag" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Serenity Mini Bag</h3>
+                        <p class="bag-tagline">Perfectly petite, timelessly chic</p>
+                    </div>
+                </div>
+
+                <!-- Bag 10 -->
+                <div class="bag-card" data-aos="fade-up">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Gilded Grace Handbag.webp" alt="Gilded Grace Handbag" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Gilded Grace Handbag</h3>
+                        <p class="bag-tagline">Golden hour in every detail</p>
+                    </div>
+                </div>
+
+                <!-- Bag 11 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Crimson Couture Satchel.jpg" alt="Crimson Couture Satchel" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Crimson Couture Satchel</h3>
+                        <p class="bag-tagline">Bold, beautiful, unforgettable</p>
+                    </div>
+                </div>
+
+                <!-- Bag 12 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Ivory Dream Clutch.webp" alt="Ivory Dream Clutch" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Ivory Dream Clutch</h3>
+                        <p class="bag-tagline">Pure sophistication</p>
+                    </div>
+                </div>
+
+                <!-- Bag 13 -->
+                <div class="bag-card" data-aos="fade-up">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Sapphire Sky Shoulder Bag.jpg" alt="Sapphire Sky Shoulder Bag" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Sapphire Sky Shoulder Bag</h3>
+                        <p class="bag-tagline">Where elegance meets adventure</p>
+                    </div>
+                </div>
+
+                <!-- Bag 14 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Midnight Mystique Tote.webp" alt="Midnight Mystique Tote" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Midnight Mystique Tote</h3>
+                        <p class="bag-tagline">Artisan design for modern women</p>
+                    </div>
+                </div>
+
+                <!-- Bag 15 -->
+                <div class="bag-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bag-image-wrapper">
+                        <img src="images/Blossom Belle Crossbody.jpg" alt="Blossom Belle Crossbody" class="bag-image" loading="lazy" decoding="async">
+                        <div class="bag-overlay">
+                            <span class="view-text">Tap to view</span>
+                        </div>
+                    </div>
+                    <div class="bag-info">
+                        <h3 class="bag-name">Blossom Belle Crossbody</h3>
+                        <p class="bag-tagline">Graceful, feminine, timeless</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="about-title">Crafted with Passion</h2>
+                <p class="about-text">
+                    At Zain Bags, we believe every woman deserves to carry a piece of art. 
+                    Our handcrafted collection celebrates timeless elegance, sophisticated design, 
+                    and the finest materials. Each bag tells a story of craftsmanship and dedication.
+                </p>
+                <p class="about-text">
+                    Discover your signature style with bags that complement your grace and confidence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">For purchases, please contact us directly</p>
+                <p class="manual-order-note">✨ We accept manual orders only — personalized service for every customer</p>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-label">Store Location</h3>
+                    <p class="contact-detail">Zain Bags Boutique</p>
+                    <p class="contact-detail">Ground Floor, Umraha Dhula Bazaar,</p>
+                    <p class="contact-detail">Near City Center, Bhopal,</p>
+                    <p class="contact-detail">Madhya Pradesh – 462001</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-label">Phone</h3>
+                    <p class="contact-detail">+91 7024647676</p>
+                    <p class="contact-detail">Available: Mon-Sat, 10AM-7PM</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-label">Email</h3>
+                    <p class="contact-detail">Ya805846@gmail.com</p>
+                    <p class="contact-detail">Contact us for inquiries</p>
+                </div>
+
+                <div class="contact-card contact-card-instagram">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-label">Instagram</h3>
+                    <a href="https://www.instagram.com/zain_bag_house?igsh=MTlpb2tpOXo5dThrcA==" target="_blank" rel="noopener noreferrer" class="instagram-link">
+                        <p class="contact-detail">@zain_bag_house</p>
+                    </a>
+                    <p class="contact-detail">Follow us for new arrivals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Zain Bags. Handcrafted with love.</p>
+            <p class="footer-tagline">Elegance You Carry, Every Day.</p>
+            <p class="footer-copyright">
+                All Rights Reserved | Designed & Developed with ✨ <br>
+                <a href="tel:+15551234567">Contact Us</a> | 
+                <a href="mailto:hello@zainbags.com">Email</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modal for Bag Details -->
+    <div class="modal-overlay" id="bagModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <img src="" alt="" class="modal-image" id="modalImage">
+            <div class="modal-body">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <p class="modal-tagline" id="modalTagline"></p>
+                
+                <div class="modal-section">
+                    <h3 class="modal-section-title">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        About This Bag
+                    </h3>
+                    <p class="modal-description" id="modalDescription"></p>
+                </div>
+                
+                <div class="modal-section">
+                    <h3 class="modal-section-title">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        Perfect For
+                    </h3>
+                    <div class="usage-tags" id="modalUsageTags"></div>
+                </div>
+                
+                <div class="modal-cta">
+                    <button class="modal-button modal-button-primary" id="contactOrderBtn">
+                        💬 WhatsApp Order
+                    </button>
+                    <button class="modal-button modal-button-secondary" id="closeModalBtn">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
